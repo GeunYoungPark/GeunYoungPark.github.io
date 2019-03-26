@@ -1,0 +1,22 @@
+## Setup
+title:        GopiGo Robot
+tagline:      Gopigo robot coding and examples
+baseurl:      ""
+paginate:     10
+# must be careful : when put date for file name for blog, use date of yesterday. 
+# This shit can not build file if file name is today's date. Because of setting of locale is wrong
+locale:       "en"
+#timezone: Australia/Canberra
+
+## About/contact
+author:
+  name:       Park
+  url:        http://yourhomepage.com 
+
+## plugins
+plugins:
+  - jekyll-paginate
+
+## Others
+markdown: kramdown
+theme: jekyll-theme-cayman
