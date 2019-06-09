@@ -1,5 +1,29 @@
----
+<!-- ---
 layout: default
 ---
 
-{{ content }}
+{{ content }} -->
+
+<!DOCTYPE html>
+<html lang="{{ site.locale }}">
+  
+
+  
+  {% include head.html %}
+
+  <body>
+  <span class="js-cursor-container"></span>
+    {% include page-header.html %}
+
+    <section class="main-content">
+      
+      {{ content }}
+
+      {% include page-footer.html %}
+
+    </section>
+  
+  </body>
+   
+</html>
+ 
